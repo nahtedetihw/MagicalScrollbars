@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.nahtedetihw.magicalscrollbarsprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Colors</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.nahtedetihw.magicalscrollbarsprefs.color</string>
+				<key>fallback</key>
+				<string>#FF0000</string>
+				<key>alpha</key>
+				<true/>
+			</dict>
+			<key>label</key>
+			<string>Color 1</string>
+			<key>key</key>
+			<string>color1Key</string>
+			<key>PostNotification</key>
+			<string>com.nahtedetihw.magicalscrollbarsprefs.color/changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.nahtedetihw.magicalscrollbarsprefs.color</string>
+				<key>fallback</key>
+				<string>#ff9a00</string>
+				<key>alpha</key>
+				<true/>
+			</dict>
+			<key>label</key>
+			<string>Color 2</string>
+			<key>key</key>
+			<string>color2Key</string>
+			<key>PostNotification</key>
+			<string>com.nahtedetihw.magicalscrollbarsprefs.color/changed</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Grab Delay</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.nahtedetihw.magicalscrollbarsprefs</string>
+			<key>key</key>
+			<string>removeScrollBarGrabDelay</string>
+			<key>label</key>
+			<string>Remove Grab Delay</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>ETHN</string>
+			<key>user</key>
+			<string>EthanWhited</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>MagicalScrollbars 1.0</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>1</string>
+			<key>footerText</key>
+			<string>2021 © nahtedetihw</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

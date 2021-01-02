@@ -1,0 +1,9 @@
+Package: com.nahtedetihw.magicalscrollbars
+Name: MagicalScrollbars
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Make your Scrollbars Magical!
+Maintainer: Ethan Whited
+Author: Ethan Whited
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
